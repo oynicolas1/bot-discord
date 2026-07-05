@@ -28,4 +28,4 @@ async def on_message(message):
             print("O bot não tem permissão para apagar mensagens neste canal.")
 
 # Substitua pelo Token do seu Bot
-client.run('MTUyMzEzODc1NDM4NTE1NDA5OA.G8FUk8.0EvnF0UMQU6l1vy5gU3vCRM1HxahemIA9kn5z0')
+client.run(os.environ.get('DISCORD_TOKEN'))
